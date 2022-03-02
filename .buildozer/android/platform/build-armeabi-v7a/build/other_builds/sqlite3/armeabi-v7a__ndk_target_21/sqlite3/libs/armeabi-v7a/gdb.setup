@@ -1,0 +1,2 @@
+set solib-search-path /home/vinicius/workspace/teste2/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a
+directory /home/vinicius/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot /home/vinicius/workspace/teste2/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/jni/.. /home/vinicius/.buildozer/android/platform/android-ndk-r19c/sources/cxx-stl/system

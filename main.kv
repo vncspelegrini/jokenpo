@@ -1,0 +1,54 @@
+<Principal>:
+    BoxLayout:
+        orientation: 'vertical'
+        canvas.before:
+            BorderImage:
+                source:'panodefundo.png'
+                size:self.size                   
+        BoxLayout:
+            Image:
+                id: robo 
+                source: 'pcach.png'
+            Label:
+                id: probo
+                text: root.roplacar
+                font_size: 20
+            Image:
+                source: 'vs.png'
+            Image:
+                id: gato 
+                source: 'pgato.png'
+            Label:
+                id: pgato
+                text: root.gaplacar
+                font_size: 20
+        BoxLayout:
+            Image:
+                id: com
+                source: 'inicioc.png'
+            Image:
+                id: eu
+                source: 'iniciog.png'
+        BoxLayout:
+            Button:
+                on_press: root.mudar(1)
+                background_color: 0, 0, 0, 0 
+                Image:
+                    source:'pedra.png'
+                    center: self.parent.center
+                    size: 100, 100
+            Button:
+                on_press: root.mudar(2)
+                background_color: 0, 0, 0, 0
+                Image:
+                    source:'papel.png'
+                    center: self.parent.center
+                    size: 100, 100
+            Button:
+                on_press: root.mudar(3)
+                background_color: 0, 0, 0, 0
+                Image:
+                    source:'tesoura.png'
+                    center: self.parent.center
+                    size: 100, 100
+                        
